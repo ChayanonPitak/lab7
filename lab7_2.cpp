@@ -28,8 +28,8 @@ int main(){
 		//[Missing Code 2] Get name of the i-th students that may include whitespace.
 		getline (cin, name[i]);
 		cout << "Score of student " << i+1 << ": ";
-		cin >> score[i];
 		//[Missing Code 3] Get score of the i-th students.
+		cin >> score[i];
 		i++;
 	}
 	
